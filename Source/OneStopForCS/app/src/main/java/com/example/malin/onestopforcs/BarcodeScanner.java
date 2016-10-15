@@ -42,22 +42,16 @@ public class BarcodeScanner extends AppCompatActivity {
 
     private void initControls() {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-
         autoFocusHandler = new Handler();
         mCamera = getCameraInstance();
-
         // Instance barcode scanner
         scanner = new ImageScanner();
         scanner.setConfig(0, Config.X_DENSITY, 3);
         scanner.setConfig(0, Config.Y_DENSITY, 3);
-
-        mPreview = new CameraPreview(BarcodeScanner.this, mCamera, previewCb,
-                autoFocusCB);
+        mPreview = new CameraPreview(BarcodeScanner.this, mCamera, previewCb, autoFocusCB);
         FrameLayout preview = (FrameLayout) findViewById(R.id.cameraPreview);
         preview.addView(mPreview);
-
         scanButton = (Button) findViewById(R.id.ScanButton);
-
         scanButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (barcodeScanned) {
@@ -71,7 +65,6 @@ public class BarcodeScanner extends AppCompatActivity {
         });
     }
 
-
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
@@ -79,8 +72,6 @@ public class BarcodeScanner extends AppCompatActivity {
         }
         return super.onKeyDown(keyCode, event);
     }
-
-
     /**
      * A safe way to get an instance of the Camera object.
      */
