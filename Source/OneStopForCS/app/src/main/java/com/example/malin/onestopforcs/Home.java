@@ -1,5 +1,9 @@
 package com.example.malin.onestopforcs;
 
+/**
+ * Created by malin on 23-09-2016.
+ */
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,9 +11,6 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Toast;
 
-/**
- * Created by malin on 23-09-2016.
- */
 public class Home extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
