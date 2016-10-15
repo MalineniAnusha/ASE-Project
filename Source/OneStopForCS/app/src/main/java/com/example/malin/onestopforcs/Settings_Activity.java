@@ -26,7 +26,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-
 public class Settings_Activity extends AppCompatActivity {
 
     @Override
