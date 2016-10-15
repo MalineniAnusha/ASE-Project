@@ -135,6 +135,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         //check for setting files
+	
         //For each file we check if it is already available, if not we create a new file
         try {
             openFileInput("time_file");
@@ -260,7 +261,6 @@ public class MainActivity extends AppCompatActivity
             super.onBackPressed();
         }
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
