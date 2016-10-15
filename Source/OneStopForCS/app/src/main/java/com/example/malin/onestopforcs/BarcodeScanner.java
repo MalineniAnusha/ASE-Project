@@ -1,5 +1,9 @@
 package com.example.malin.onestopforcs;
 
+
+/**
+ * Created by malin on 14-10-2016.
+ */
 import android.content.DialogInterface;
 import android.content.pm.ActivityInfo;
 import android.hardware.Camera;
@@ -12,28 +16,19 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
-
 import net.sourceforge.zbar.Config;
 import net.sourceforge.zbar.Image;
 import net.sourceforge.zbar.ImageScanner;
 import net.sourceforge.zbar.Symbol;
 import net.sourceforge.zbar.SymbolSet;
 
-
-
-/**
- * Created by malin on 14-10-2016.
- */
-
 public class BarcodeScanner extends AppCompatActivity {
 
     private Camera mCamera;
     private CameraPreview mPreview;
     private Handler autoFocusHandler;
-
     private Button scanButton;
     private ImageScanner scanner;
-
     private boolean barcodeScanned = false;
     private boolean previewing = true;
 
