@@ -1,6 +1,5 @@
 package com.example.malin.onestopforcs;
 
-
 import android.util.Log;
 
 import org.w3c.dom.Document;
