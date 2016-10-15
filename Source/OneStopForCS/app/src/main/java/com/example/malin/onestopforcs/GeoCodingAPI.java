@@ -20,9 +20,6 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-/**
- * Created by Adriaan on 17-3-2016.
- */
 public class GeoCodingAPI {
     public static String baseAddress = "https://maps.googleapis.com/maps/api/geocode/xml?address=";
     public static String appKey = "&key=AIzaSyDc-zOLX34KkiohWYfd0JOmlfbEGv2VT9M";
