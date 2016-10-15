@@ -25,7 +25,7 @@ public class Home extends AppCompatActivity {
         Intent scannerclass = new Intent(Home.this, BarcodeScanner.class);
         startActivity(scannerclass);
     }
-    
+
     public void Navigate(View v) {
         Intent navigate = new Intent(Home.this, Preload.class);
         startActivity(navigate);

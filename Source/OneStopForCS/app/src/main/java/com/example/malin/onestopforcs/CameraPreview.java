@@ -51,16 +51,6 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     }
 
     @Override
-    public void surfaceCreated(SurfaceHolder holder) {
-
-        try {
-            mCamera.setPreviewDisplay(holder);
-        } catch (IOException e) {
-            Log.d("DBG", "Error setting camera preview: " + e.getMessage());
-        }
-    }
-
-    @Override
     public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
  /*
          * If your preview can change or rotate, take care of those events here.
@@ -91,6 +81,16 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         }
     }
 
+    @Override
+    public void surfaceCreated(SurfaceHolder holder) {
+
+        try {
+            mCamera.setPreviewDisplay(holder);
+        } catch (IOException e) {
+            Log.d("DBG", "Error setting camera preview: " + e.getMessage());
+        }
+    }
+    
     @Override
     public void surfaceDestroyed(SurfaceHolder holder) {
         if (mCamera != null) {
