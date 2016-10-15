@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="One Stop for All"
+        android:text="One Stop for CS"
         android:gravity="center"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif"
@@ -46,6 +46,7 @@
         android:layout_height="30dp"
         android:text="PPT's"
         android:id="@+id/button2"
+        android:onClick="openslide"
         android:background="@color/pink"
         android:textColor="@color/colorMain"
         android:layout_centerVertical="true"
@@ -74,5 +75,18 @@
         android:textColor="@color/colorMain"
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:text="Near by events"
+        android:id="@+id/button5"
+        android:onClick="Navigate"
+        android:layout_marginTop="28dp"
+        android:background="@color/pink"
+        android:textColor="@color/colorMain"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
 
 </RelativeLayout>
