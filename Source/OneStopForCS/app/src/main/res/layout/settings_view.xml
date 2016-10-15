@@ -3,7 +3,7 @@
         The only things of interest for the back-end developers are the 'settings' themselves,
         in this comment the id's of these views are listed for quick reference. Line numbers are
         included but they might be incorrect, due to future updates.
-
+		
         Time Period:
             ID:     @+id/spinner_time
             LINE:   149
