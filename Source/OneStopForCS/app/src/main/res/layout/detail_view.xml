@@ -19,10 +19,11 @@
         Event Image:
             ID:     @+id/image_event
             Line:   107
-
+			
             Important note:
             two textviews have been added with zero regard for layout.
             The textviews are: event_city & event_country.
+			
         -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
