@@ -21,6 +21,11 @@ public class Home extends AppCompatActivity {
             Toast.makeText(Home.this, intent.getStringExtra(LoginActivity.NAME), Toast.LENGTH_SHORT).show();
         }
     }
+    public void openScanner(View v) {
+        Intent scannerclass = new Intent(Home.this, BarcodeScanner.class);
+        startActivity(scannerclass);
+    }
+    
     public void Navigate(View v) {
         Intent navigate = new Intent(Home.this, Preload.class);
         startActivity(navigate);
@@ -31,9 +36,6 @@ public class Home extends AppCompatActivity {
         startActivity(slideshare);
     }
 
-    public void openScanner(View v) {
-        Intent scannerclass = new Intent(Home.this, BarcodeScanner.class);
-        startActivity(scannerclass);
-    }
+
 
 }
