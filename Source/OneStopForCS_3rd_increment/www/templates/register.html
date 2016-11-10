@@ -1,0 +1,31 @@
+<ion-view title="Register" id="page5">
+  <ion-content style="background: url(img/download.png) no-repeat center;background-size:cover;" class="padding">
+    <div class="spacer" style="width:300px; margin:0 auto;height: 150px;">
+      <img src="img/finalLogo.png"/>
+    </div>
+    <div class="list list-inset">
+      <label class="item item-input">
+        <img class="icons" src="img/add-user-button.png"/>
+        <input type="text" placeholder="First Name" ng-model="data.firstname" required="true">
+      </label>
+      <label class="item item-input">
+        <img class="icons" src="img/add-user-button.png"/>
+        <input type="text" placeholder="Last Name" ng-model="data.lastname" required="true">
+      </label>
+      <label class="item item-input">
+        <img class="icons" src="img/close-envelope.png"/>
+        <input type="text" placeholder="Email" ng-model="data.email" required="true">
+      </label>
+      <label class="item item-input">
+        <img class="icons" src="img/user.png"/>
+        <input type="text" placeholder="Username" ng-model="data.username" required="true">
+      </label>
+      <label class="item item-input">
+        <img class="icons" src="img/password.png">
+        <input style="padding-left: 20px" type="password" placeholder="Password" ng-model="data.password" required="true">
+      </label>
+
+    </div>
+    <button class="button button-block button-positive" ng-click="register(data.userdata)" style="background-color: #795548;color: white;font-family: Helvetica">Register</button>
+  </ion-content>
+</ion-view>

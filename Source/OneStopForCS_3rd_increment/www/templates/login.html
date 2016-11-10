@@ -1,0 +1,28 @@
+<ion-view title="Login" id="page2">
+  <ion-content padding="true" style="background: url(img/download.png) no-repeat center;background-size:cover;" class="has-header">
+    <div class="spacer" style="width:300px; margin:0 auto;height: 125px;">
+      <img src="img/finalLogo.png"/>
+    </div>
+    <form id="login-form1" class="list">
+      <ion-list id="login-list1">
+        <label class="item item-input" id="login-input1">
+          <img class="icons" src="img/user.png">
+          <input type="text" placeholder="Username" ng-model="data.username" required="required" pattern="[A-Za-z0-9]{1,20}">
+        </label>
+        <label class="item item-input" id="login-input2">
+          <img class="icons" src="img/password.png">
+          <input style="padding-left: 20px" type="password" placeholder="Password" ng-model="data.password" required="required" pattern="[A-Za-z0-9]{1,20}">
+        </label>
+        <!--<div class="spacer" style="height: 40px;"></div>-->
+        <button class="button button-block button-calm" ng-click="login(data.username)" style="font-family: Helvetica">Login</button>
+      </ion-list>
+      <button id="login-button6" class="button button-positive  button-block icon ion-social-facebook" ng-click="FBlogin()">    SignIn with Facebook</button>
+      <button id="login-button7" class="button button-assertive  button-block icon ion-social-google" href='https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=904118659688-poln5vho7sntllgdls55gh36acde454g.apps.googleusercontent.com&redirect_uri=http://localhost:63342/Source/Homepage.html?_ijt=i16huqc3i8do4kgkitufkbkhss&scope=email&access_type=online&approval_prompt=auto'>    SignIn with Google</button>
+
+      <div style="margin-top: 35px">
+        <label style="color: black">No Account yet? Then</label>
+        <a ui-sref="register" id="login-button1" class="button button-stable  button-block" style="background-color: #795548;color: white;font-family: Helvetica">Register</a>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
