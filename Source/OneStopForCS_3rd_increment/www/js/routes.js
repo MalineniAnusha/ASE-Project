@@ -13,7 +13,7 @@ angular.module('app.routes', [])
       .state('menu.home', {
     url: '/home',
     views: {
-      'side-menu21': {
+      'side_menu': {
         templateUrl: 'templates/home.html',
         controller: 'homeCtrl'
       }
@@ -29,7 +29,7 @@ angular.module('app.routes', [])
   .state('menu.courses', {
     url: '/courses',
     views: {
-      'side-menu21': {
+      'side_menu': {
         templateUrl: 'templates/courses.html',
         controller: 'coursesCtrl'
       }
@@ -37,15 +37,15 @@ angular.module('app.routes', [])
   })
 
   .state('menu', {
-    url: '/side-menu21',
+    url: '/side_menu',
     templateUrl: 'templates/menu.html',
     controller: 'menuCtrl'
   })
 
   .state('menu.settings', {
-    url: '/page4',
+    url: '/settings',
     views: {
-      'side-menu21': {
+      'side_menu': {
         templateUrl: 'templates/settings.html',
         controller: 'settingsCtrl'
       }
@@ -55,7 +55,7 @@ angular.module('app.routes', [])
   .state('menu.events', {
     url: '/eventsnearby',
     views: {
-      'side-menu21': {
+      'side_menu': {
         templateUrl: 'templates/events.html',
         controller: 'eventsCtrl'
       }
@@ -65,7 +65,7 @@ angular.module('app.routes', [])
     .state('menu.profile', {
       url: '/profile',
       views: {
-        'side-menu21': {
+        'side_menu': {
           templateUrl: 'templates/Profile.html',
           controller: 'profileCtrl'
         }
@@ -83,7 +83,7 @@ angular.module('app.routes', [])
    .state('menu.video', {
     url: '/video',
     views: {
-      'side-menu21': {
+      'side_menu': {
         templateUrl: 'templates/video.html',
         controller: 'videoCtrl'
       }
@@ -93,19 +93,33 @@ angular.module('app.routes', [])
     .state('menu.wiki', {
       url: '/wiki',
       views: {
-        'side-menu21': {
+        'side_menu': {
           templateUrl: 'templates/wiki.html',
           controller: 'wikiCtrl'
         }
       }
     })
 
-
+    .state('changeusername', {
+      url: '/changeusername',
+      templateUrl: 'templates/changeUsername.html',
+      controller: 'changeusernameCtlr'
+    })
+    .state('changeemail', {
+      url: '/changeemail',
+      templateUrl: 'templates/changeEmail.html',
+      controller: 'changeemailCtlr'
+    })
+    .state('changepassword', {
+      url: '/changepassword',
+      templateUrl: 'templates/changePassword.html',
+      controller: 'changepasswordCtlr'
+    })
 
     .state('menu.feedback', {
     url: '/page11',
     views: {
-      'side-menu21': {
+      'side_menu': {
         templateUrl: 'templates/feedback.html',
         controller: 'feedbackCtrl'
       }

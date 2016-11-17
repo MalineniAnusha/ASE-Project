@@ -275,8 +275,51 @@ function ($scope, $stateParams) {
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function ($scope, $stateParams) {
 
+    }])
+
+  .controller('changeusernameCtlr', function($scope, DeleteService, UpdateService,$ionicPopup, $state) {
+    $scope.go = function () {
+      $state.go('changeusername');
+    } // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+// You can include any angular dependencies as parameters for this function
+// TIP: Access Route Parameters for your page via $stateParams.parameterName
+    $scope.init = function () {
+      $scope.data = {
+        firstname: localStorage.firstname,
+        lastname: localStorage.lastname,
+        username: localStorage.username,
+        password: localStorage.password,
+        email: localStorage.email,
+        id: localStorage.id
+      };
+    }
+  })
+
+  .controller('changepasswordCtlr', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+// You can include any angular dependencies as parameters for this function
+// TIP: Access Route Parameters for your page via $stateParams.parameterName
+    function ($scope, $stateParams) {
+
 
     }])
+
+  .controller('changeemailCtlr', function($scope, DeleteService, UpdateService,$ionicPopup, $state) {
+    $scope.go = function () {
+      $state.go('changeusername');
+    } // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+// You can include any angular dependencies as parameters for this function
+// TIP: Access Route Parameters for your page via $stateParams.parameterName
+    $scope.init = function () {
+      $scope.data = {
+        firstname: localStorage.firstname,
+        lastname: localStorage.lastname,
+        username: localStorage.username,
+        password: localStorage.password,
+        email: localStorage.email,
+        id: localStorage.id
+      };
+    }
+  })
 
   .controller('eventsCtrl', function($scope, $ionicPopup, $state) {
     $scope.data = {};
