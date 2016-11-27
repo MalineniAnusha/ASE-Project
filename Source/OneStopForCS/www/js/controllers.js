@@ -5,65 +5,11 @@ angular.module('app.controllers', [])
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
 
-/*
-
-  $(document).ready(function(){
-    $("#search").keypress(function(e){
-      if(e.keyCode === 13){
-        var search = $("#search").val();
-        var url = "https://en.wikipedia.org/w/api.php";
-        $.ajax({
-          url: url,
-          data: {
-            action: 'opensearch',
-            search: search,
-            format: 'json'
-          },
-          type: "GET",
-          contentType: "application/json; charset=utf-8",
-          dataType: "jsonp"
-        })
-          .done(function(data, status, jqXHR) {
-            $("#search-result").html();
-            for(i=0;i<data[1].length;i++){
-              $("#search-result").prepend("<div><div class='docs'><a href="+data[3][i]+"><h2>"+data[1][i]+"</h2>" + "<p>" + data[2][i] + "</p></a></div></div>");
-            }
-          });
-      }
-    })
-    $("#button").on("click",function(){
-      $("#c1").fadeToggle();
-    });
-    $("#submit").on("click", function(event) {
-      event.preventDefault();
-      var search = $("#user-input").val();
-      var url = "https://en.wikipedia.org/w/api.php";
-      $.ajax({
-        url: url,
-        data: {
-          action: 'opensearch',
-          search: search,
-          format: 'json'
-        },
-        type: "GET",
-        contentType: "application/json; charset=utf-8",
-        dataType: "jsonp"
-      })
-        .done(function(data, status, jqXHR) {
-          $("#search-result").html();
-          for(i=0;i<data[1].length;i++){
-            $("#search-result").prepend("<div><div class='docs'><a href="+data[3][i]+"><h2>"+data[1][i]+"</h2>" + "<p>" + data[2][i] + "</p></a></div></div>");
-          }
-        });
-    });
-    $('#reset').click(event, function(){
-      event.preventDefault();
-      $('#search-results').empty();
-      $('#search-result').empty();
-    });
+  $('#reset').click(event, function(){
+    event.preventDefault();
+    $('#search-results').empty();
   });
 
-*/
 }])
 
 .controller('loginCtrl', function ($scope, LoginService, $ionicPopup, $state) {
@@ -178,7 +124,7 @@ function ($scope, $stateParams) {
   }
 
   function showResults(results){
-    console.log('show');
+    //console.log('show');
     var html=' ';
     $.each(results, function(index, value){
 
@@ -194,7 +140,7 @@ function ($scope, $stateParams) {
       var title = result.snippet.title;
       var thumb = '<a href="'+url+'" target="_blank"><div class="thumb" style="background-image: url('+result.snippet.thumbnails.high.url+')"></div></a>';
 
-      html += '<div class="result"><h3>'+ position +'. '+title+'</h3>'+thumb+'<p>'+result.snippet.description+'<br>'+ position +'</p></div>';
+      html += '<div class="docs"><h3>'+ position +'. '+title+'</h3>'+thumb+'<p>'+result.snippet.description+'</p></div>';
 
 
 
@@ -231,22 +177,18 @@ function ($scope, $stateParams) {
   $(function() {
     console.log('start');
     clearEntry();
-    $('#search-form').submit(function(event){
+    $('#searchVideo').submit(function(event){
       event.preventDefault();
       var searchTerm = $('#user-input').val();
       getRequest(searchTerm);
     });
-
-
-
-
+    /*
     $('#reset').click(event, function(){
       event.preventDefault();
       $('#search-results').empty();
     });
+    */
   });
-
-
 
 }])
 
@@ -256,7 +198,58 @@ function ($scope, $stateParams) {
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function ($scope, $stateParams) {
 
-
+      $(document).ready(function() {
+        $("#search").keypress(function (e) {
+          if (e.keyCode === 13) {
+            var search = $("#search").val();
+            var url = "https://en.wikipedia.org/w/api.php";
+            $.ajax({
+              url: url,
+              data: {
+                action: 'opensearch',
+                search: search,
+                format: 'json'
+              },
+              type: "GET",
+              contentType: "application/json; charset=utf-8",
+              dataType: "jsonp"
+            })
+              .done(function (data, status, jqXHR) {
+                $("#search-result").html();
+                for (i = 0; i < data[1].length; i++) {
+                  $("#search-result").prepend("<div><div class='docs'><a href=" + data[3][i] + "><h2>" + data[1][i] + "</h2>" + "<p>" + data[2][i] + "</p></a></div></div>");
+                }
+              });
+          }
+        })
+        /*
+        $("#button").on("click", function () {
+          $("#c1").fadeToggle();
+        });
+        */
+        $("#submitWiki").on("click", function (event) {
+          event.preventDefault();
+          var search = $("#search").val();
+          var url = "https://en.wikipedia.org/w/api.php";
+          $.ajax({
+            url: url,
+            data: {
+              action: 'opensearch',
+              search: search,
+              format: 'json'
+            },
+            type: "GET",
+            contentType: "application/json; charset=utf-8",
+            dataType: "jsonp"
+          })
+            .done(function (data, status, jqXHR) {
+              $("#search-result").html();
+              for (i = 0; i < data[1].length; i++) {
+                $("#search-result").prepend("<div><div class='docs'><a href=" + data[3][i] + "><h2>" + data[1][i] + "</h2>" + "<p>" + data[2][i] + "</p></a></div></div>");
+              }
+            });
+        });
+      });
 
     }])
 

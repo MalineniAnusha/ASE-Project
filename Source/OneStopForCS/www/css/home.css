@@ -1,20 +1,4 @@
 
-/*
-img {
-  height: 100px;
-  clip: rect(0px, 140px, 140px, 0px);
-}
-
-.thumb {
-  width: 200px;
-  height: 200px;
-  background-position: 50%;
-}
-*/
-
-body{
-  background-color: #439E8A;
-}
 
 #title{
   color:white;
@@ -24,25 +8,17 @@ body{
 
 }
 
-.container{
-  text-align: center;
-  color:white;
-}
 
 #cts{
   margin-top:50px;
-
   text-align: center;
 }
-
+/*
 #button{
   margin-top: 15px;
   height: 80px;
 }
-
-#c1{
-  display:none;
-}
+*/
 
 #search{
   border-bottom-left-radius: 25px;
@@ -50,13 +26,13 @@ body{
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   padding: 5px;
-  border: solid 5px orange;
-  background-color: transparent;
-  width: 250px;
+  border: solid 5px orangered;
+  width: 400px;
   height: 44px;
   margin-top: 25px;
-  color: white;
-  font-size: 25px;
+  color: black;
+  font-size: 20px;
+
 }
 
 #submit{
@@ -64,29 +40,19 @@ body{
   margin-bottom: 30px;
   padding: 5px 30px;
   font-size: 20px;
+  width: 250px;
+  height: 120px;
+  color: #4b8bf4;
 }
+
 a{
   color:inherit;
 }
+
 .docs{
   background-color:white;
   color: #4A6664;
   padding: 30px 15px;
   margin-bottom: 30px;
   text-align:left;
-}
-
-#random{
-  margin-top: -20px;
-  height: 85px;
-}
-
-#random:hover{
-  -webkit-filter: invert(100%);
-}
-
-#random-search{
-  font-size: 15px;
-  margin-top: -17px;
-  margin-bottom: 80px;
 }
