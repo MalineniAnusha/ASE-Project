@@ -10,7 +10,7 @@ angular.module('app.routes', [])
 
 
 
-      .state('menu.home', {
+    .state('menu.home', {
     url: '/home',
     views: {
       'side_menu': {
@@ -85,7 +85,7 @@ angular.module('app.routes', [])
     views: {
       'side_menu': {
         templateUrl: 'templates/video.html',
-        controller: 'videoCtrl'
+        controller: 'homeCtrl'
       }
     }
   })
@@ -95,7 +95,7 @@ angular.module('app.routes', [])
       views: {
         'side_menu': {
           templateUrl: 'templates/wiki.html',
-          controller: 'wikiCtrl'
+          controller: 'homeCtrl'
         }
       }
     })

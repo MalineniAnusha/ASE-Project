@@ -1,27 +1,28 @@
 
 <ion-view title="Courses" id="page6">
   <ion-content padding="true" style="background: url(img/download.png) no-repeat center;background-size:cover;" class="has-header">
+    <!--
          <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
 
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
 
 <div class="container">
           <form class="navbar-form navbar-left " role="search">
             <div class="form-group">
+
               <input type="text" class="form-control" ng-model="data.sub" ng-keyup="fetch($event)" placeholder="Search">
+
             </div>
+
             <br>
-            <br>
+
             <button type="submit" ng-click="enterval(data.values)">Submit</button>
-            <button id='reset'>Reset</button>
+
           </form>
-          <div>
+
           </div>
-          </div>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+        </div>
+      </div>
+      -->
 
     <ul ng-show="!dropdown" style="background-color: white;position: absolute;z-index: 99;border: 1px solid #ddd;margin-top: -20px;border-radius: 2px 2px 2px 2px">
       <li ng-repeat="val in details.elements | limitTo:5" ng-click="fill(val.name)">{{val.name}}</li>

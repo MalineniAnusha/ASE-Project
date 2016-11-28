@@ -5,11 +5,141 @@ angular.module('app.controllers', [])
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
 
-  $('#reset').click(event, function(){
-    event.preventDefault();
-    $('#search-results').empty();
+  var nextPageToken, prevPageToken;
+  $('#controls').hide();
+
+  function clearEntry(){
+    $('#user-input').val('').focus();
+  }
+
+  function entryList (newEntry){
+    var allHtml;
+    allHtml += newEntry+'<hr>';
+    $('#search-results').prepend(allHtml);
+   // $('#search-result').prepend(allHtml);
+  //  $('#controls').fadeIn(1000);
+
+  }
+
+
+
+  function showResults(results){
+    //console.log('show');
+    var html=' ';
+    $.each(results, function(index, value){
+
+      var result = results[index];
+      var position = index+1;
+      if (result.id.kind == 'youtube#channel'){
+        var url = 'https://www.youtube.com/channel/'+result.id.channelId;
+      }
+      else {
+        var url = 'https://www.youtube.com/watch?v='+result.id.videoId;
+      }
+
+      var title = result.snippet.title;
+      var thumb = '<a href="'+url+'" target="_blank"><div class="thumb" style="background-image: url('+result.snippet.thumbnails.high.url+')"></div></a>';
+
+      html += '<div class="docs"><h3>'+ position +'. '+title+'</h3>'+thumb+'<p>'+result.snippet.description+'</p></div>';
+
+
+    });
+    entryList(html);
+   // clearEntry();
+
+  }
+
+
+
+  function getRequest(searchTerm) {
+    console.log('get');
+    var params = {
+      // s: searchTerm,
+      r: 'json',
+      q: searchTerm,
+      part: 'snippet',
+      order: 'viewCount',
+      startIndex: 1,
+      pagetoken: 'CAoQAA',
+      maxResults: 10,
+      key: 'AIzaSyA5KnfmKw5qQc6iFwxuLlXw2lgd5ydWb8M'
+
+    };
+    url = 'https://www.googleapis.com/youtube/v3/search';
+
+    $.getJSON(url, params, function(data){
+
+      showResults(data.items);
+    });
+  }
+
+  $(function() {
+    console.log('start');
+    //clearEntry();
+   // $('#searchVideo').submit(function(event){
+      $("#submitVideo").on("click", function (event) {
+        event.preventDefault();
+      var searchTerm = $('#user-input').val();
+      getRequest(searchTerm);
+    });
+
+    $('#reset').click(event, function(){
+      event.preventDefault();
+      clearEntry();
+      $('#search-results').empty();
+      $('#search-result').empty();
+    });
   });
 
+    $(document).ready(function() {
+      $("#user-input").keypress(function (e) {
+        if (e.keyCode === 13) {
+          var search = $("user-input").val();
+          var url = "https://en.wikipedia.org/w/api.php";
+          $.ajax({
+            url: url,
+            data: {
+              action: 'opensearch',
+              search: search,
+              format: 'json'
+            },
+            type: "GET",
+            contentType: "application/json; charset=utf-8",
+            dataType: "jsonp"
+          })
+            .done(function (data, status, jqXHR) {
+              $("#search-result").html();
+              for (i = 0; i < data[1].length; i++) {
+                $("#search-result").prepend("<div><div class='docs'><a href=" + data[3][i] + "><h2>" + data[1][i] + "</h2>" + "<p>" + data[2][i] + "</p></a></div></div>");
+              }
+            });
+        }
+      })
+
+      $("#submitWiki").on("click", function (event) {
+        event.preventDefault();
+        var search = $("#user-input").val();
+        var url = "https://en.wikipedia.org/w/api.php";
+        $.ajax({
+          url: url,
+          data: {
+            action: 'opensearch',
+            search: search,
+            format: 'json'
+          },
+          type: "GET",
+          contentType: "application/json; charset=utf-8",
+          dataType: "jsonp"
+        })
+          .done(function (data, status, jqXHR) {
+            $("#search-result").html();
+            for (i = 0; i < data[1].length; i++) {
+              $("#search-result").prepend("<div><div class='docs'><a href=" + data[3][i] + "><h2>" + data[1][i] + "</h2>" + "<p>" + data[2][i] + "</p></a></div></div>");
+            }
+          });
+        $('#search-result').empty();
+      });
+    });
 }])
 
 .controller('loginCtrl', function ($scope, LoginService, $ionicPopup, $state) {
@@ -96,7 +226,7 @@ function ($scope, $stateParams) {
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
-
+/*
   var nextPageToken, prevPageToken;
   $('#controls').hide();
 
@@ -182,14 +312,16 @@ function ($scope, $stateParams) {
       var searchTerm = $('#user-input').val();
       getRequest(searchTerm);
     });
-    /*
+
+
+
+
     $('#reset').click(event, function(){
       event.preventDefault();
       $('#search-results').empty();
     });
-    */
   });
-
+*/
 }])
 
 
@@ -197,7 +329,7 @@ function ($scope, $stateParams) {
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function ($scope, $stateParams) {
-
+/*
       $(document).ready(function() {
         $("#search").keypress(function (e) {
           if (e.keyCode === 13) {
@@ -222,11 +354,7 @@ function ($scope, $stateParams) {
               });
           }
         })
-        /*
-        $("#button").on("click", function () {
-          $("#c1").fadeToggle();
-        });
-        */
+
         $("#submitWiki").on("click", function (event) {
           event.preventDefault();
           var search = $("#search").val();
@@ -250,7 +378,7 @@ function ($scope, $stateParams) {
             });
         });
       });
-
+*/
     }])
 
 
@@ -401,6 +529,7 @@ function ($scope, $stateParams) {
   })
 
 .controller('coursesCtrl', function($scope, $http) {
+
   $scope.start=0;
   $scope.end=10;
   $scope.dropdown=false;
@@ -529,5 +658,6 @@ function ($scope, $stateParams) {
     return function(arr, start, end) {
       return (arr || []).slice(start, end);
     };
+
   })
 

@@ -16,7 +16,7 @@ html {
 {
   text-align: center;
 }
-/*
+
 .submit {
   background-color: #ccc;
   -moz-border-radius: 5px;
@@ -32,7 +32,7 @@ html {
   width: 300px;
   height: 300px;
 }
-*/
+
 .line-separator{
   height:1px;
   background:#717171;
