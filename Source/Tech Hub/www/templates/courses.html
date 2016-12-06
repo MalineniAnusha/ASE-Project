@@ -1,0 +1,53 @@
+
+<ion-view title="Courses" id="page6">
+  <ion-content padding="true"  class="has-header">
+
+         <div class="container-fluid">
+
+
+<div class="container">
+          <form class="navbar-form navbar-left " role="search">
+            <div class="form-group">
+
+              <input type="text" style="width:325px;font-family: 'Yorkville';padding-left: 20px;" class="form-control" ng-model="data.sub" ng-keyup="fetch($event)" placeholder="Search">
+
+            </div>
+
+            <br>
+
+            <a ng-click="enterval(data.values)" id="login-button1" class="button button-stable  button-block" style="background-color: #795548;color: white;font-family: Helvetica;width:50%;margin-left: 60px;">Submit</a>
+
+            <!--<button type="submit" ng-click="enterval(data.values)">Submit</button>-->
+
+          </form>
+
+          </div>
+        </div>
+      </div>
+
+
+    <ul ng-show="!dropdown" style="background-color: white;position: absolute;z-index: 99;border: 1px solid #ddd;margin-top: -20px;border-radius: 2px 2px 2px 2px">
+      <li ng-repeat="val in details.elements | limitTo:5" ng-click="fill(val.name)">{{val.name}}</li>
+    </ul>
+    <div class="row vertical-center-row" style="width:90%;margin-left: 20px" ng-repeat="val in courses.elements | slice:start:end">
+      <div class="col-md-8 thumbnail">
+
+        <img src="{{val.photoUrl}}" class="col-md-6" style="height: 20%;width: 20%">
+        <div class="caption col-md-6">
+          <h4>{{val.name}}</h4>
+
+          <p><b>{{prov[$index][0]}}</b></p>
+          <p><b>Instructors</b>
+            <span ng-repeat="instsss in inst[$index] track by $index">
+        	{{instsss}}
+        </span></p>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </ion-content>
+</ion-view>
+

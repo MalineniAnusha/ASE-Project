@@ -1,0 +1,21 @@
+<ion-view title="Change Email ID" id="changeemail">
+  <ion-content padding="true"  class="has-header">
+
+    <div style="margin-top: 20px;margin-bottom: 20px;" ng-init = "init()">
+
+      <label class="item item-input"style="height: 60px">
+        <h2 style="color: black">Email</h2>
+      </label>
+      <label class="item item-input" style="height: 60px;">
+        <input type="email" style="margin-left: 20px" ng-model="data.email" required="true">
+      </label>
+    </div>
+    <div style="margin-top: 20px;">
+      <a ui-sref="changeemail" id="login-button1" class="button button-stable  button-block" onclick="window.alert('Successfully changed email-id')" style="background-color: #795548;color: white;font-family: Helvetica;width:50%;margin-left: 90px;">Change email id</a>
+      <a ui-sref="menu.settings" id="login-button2" class="button button-stable  button-block" style="background-color: #F44336;color: white;font-family: Helvetica;width:50%;margin-left: 90px;" href="#/">Go to settings menu</a>
+
+    </div>
+
+    <!--<button class="button button-block button-calm" ui-sref="changeusername" style="font-family: Helvetica">Change email id</button>-->
+  </ion-content>
+</ion-view>

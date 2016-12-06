@@ -1,0 +1,17 @@
+<div style="margin-top: 40px;margin-left:30px;font-family: Helvetica;">
+  <p><h2>Create a topic here..!</h2></p>
+</div>
+<div class="row" style="margin-top: 40px;">
+    <div class="large-12 columns panel">
+        <div class="large-12 columns">
+            <label>Topic Name</label>
+            <input type="text" ng-model="post.topicName"/>
+        </div>
+        <div class="large-12 columns">
+            <label>Body</label>
+            <textarea ng-model="post.body"></textarea>
+        </div>
+
+    </div>
+  <button style="margin-left: 100px; width: 50%;" class="medium success button" ng-click="postTopic()">Post topic</button>
+</div>

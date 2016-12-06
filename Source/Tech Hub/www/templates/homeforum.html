@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="large-12 columns">
+        <h1>Discussion Forum</h1>
+    </div>
+</div>
+<style>
+  #inline{width:100%;height:auto;display:flex;}
+  .one,.two{width:50%;height:100px;margin:10px;}
+</style>
+<!--<div id="inline">-->
+  <!--<div class="one"></div>-->
+  <!--<div class="two"></div>-->
+<!--</div>-->
+<div class="row">
+
+  <div class="form-group">
+
+    <div class="input-group">
+      <div class="input-group-addon">
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+      </div>
+      <input type="text" ng-model="searchTask" class="form-control" placeholder="Search">
+    </div>
+
+  </div>
+
+  <div id="inline";>
+    <div style="margin-left: 40px;margin-top: 20px;" class="one">
+      <a href="#create" class="medium success button">Create a topic</a>
+    </div>
+    <div style="margin-right: 20px;margin-top: 20px;" class="two">
+      <a href="http://localhost:8100/#/side_menu/home" class="medium success button">Home</a>
+    </div>
+  </div>
+
+
+    <div>
+      <div class="large-12 columns panel" ng-repeat="topic in topics | filter: searchTask | orderBy: 'topic'" ng-href="">
+        <a href="#/viewPost/{{topic.$id}}">
+            <h4>{{topic.topicName}}</h4><span class="post-user">{{topic.personName}}</span> -
+            <span class="post-date">{{topic.created | date : 'short'}}</span>
+            <p>{{topic.body}}</p>
+        </a>
+    </div>
+</div>

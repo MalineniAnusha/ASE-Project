@@ -1,0 +1,48 @@
+<div class="row">
+    <div class="large-12 columns" style="margin-top: 20px;">
+        <h2>Post Details</h2>
+    </div>
+</div>
+<style>
+  #inline{width:100%;height:auto;display:flex;}
+  .one,.two{width:50%;height:100px;margin:10px;}
+</style>
+
+<div class="row">
+    <div class="panel">
+        <h4>{{post.topicName}}</h4>
+        <span style="color: #0c60ee">Author: {{post.personName}}</span>
+        <p>{{post.body}}</p>
+    </div>
+</div>
+<div class="row">
+    <div style="margin-left: 20px;">
+        <h2>Comments:</h2>
+        <div class="large-12 columns">
+            <div class="panel callout radius" ng-repeat="postComment in postComments">
+                <p><span class="comment-user">{{postComment.user}}</span> - <span class="comment-date">{{postComment.created | date : 'medium' }}</span></p>
+                <p>{{postComment.comment}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+
+    <div class="large-12 columns">
+        <label>Comment</label>
+        <input type="text" ng-model="comments.comment"/>
+    </div>
+  <div>
+
+  </div>
+  <div id="inline";>
+    <div style="margin-left: 40px;margin-top: 20px;" class="one">
+      <button class="medium success button" ng-click="postComment()">Post comment</button>
+    </div>
+    <div style="margin-right: 20px;margin-top: 20px;" class="two">
+      <a class="medium alert button" href="#/">Go to home page</a>
+    </div>
+  </div>
+    <!--<button class="medium success button" ng-click="postComment()">Post comment</button>-->
+    <!--<a class="medium alert button" href="#/">Go to home page</a>-->
+</div>

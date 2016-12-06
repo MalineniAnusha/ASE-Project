@@ -1,0 +1,26 @@
+<ion-view title="Home" id="page1">
+    <ion-content padding="true" class="has-header">
+      <div class="container-fluid">
+      <div class="container">
+        <br>
+        <br>
+        <form id='searchVideo' class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+         <input style="width:325px;font-family: 'Yorkville';padding-left: 20px;" id="user-input" type="text" class="form-control" ng-model="data.sub" ng-keyup="fetch($event)" placeholder="Search" >
+          </div>
+          <br>
+          <br>
+          <br>
+          <div style="width:325px;">
+            <button ui-sref="menu.video" id="submitVideo"><img src="img/imageedit_4_5012367401.png"></button>
+          </div>
+          <br>
+          <br>
+          <div style="width:325px;">
+            <button ui-sref="menu.wiki" id="submitWiki" ><img src="img/imageedit_1_6587458565.png"/></button>
+          </div>
+      </form>
+      </div>
+</div>
+    </ion-content>
+</ion-view>

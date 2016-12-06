@@ -1,0 +1,16 @@
+<ion-view title="Change Username" id="changeusername">
+  <ion-content padding="true"  class="has-header">
+    <div style="margin-top: 20px;margin-bottom: 20px;" ng-init = "init()">
+      <label class="item item-input" style="height: 60px">
+        <h2 style="color: black">User Name</h2>
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="Username" ng-model="data.username" required="true">
+      </label>
+    </div>
+    <a ui-sref="changeusername" id="login-button1" class="button button-stable  button-block" onclick="window.alert('Successfully changed username')" style="background-color: #795548;color: white;font-family: Helvetica;width:50%;margin-left: 90px;">Change username</a>
+    <a ui-sref="menu.settings" id="login-button2" class="button button-stable  button-block" style="background-color: #F44336;color: white;font-family: Helvetica;width:50%;margin-left: 90px;" href="#/">Go to settings menu</a>
+
+    <!--<button class="button button-block button-calm" ui-sref="changeusername" style="font-family: Helvetica" onclick="window.alert('Successfully changed username')">Change username.</button>-->
+  </ion-content>
+</ion-view>
