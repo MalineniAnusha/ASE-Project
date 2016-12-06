@@ -1,7 +1,0 @@
-#Fri Oct 14 20:37:55 CDT 2016
-base.0=C\:\\Users\\ACHU\\Desktop\\OneStopForCS-- latest version\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e0c6a37a2243b6e7452bbb630d4ec04047aff8db
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\ACHU\\Desktop\\OneStopForCS-- latest version\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_fe566ce7bcdf8885f52af7467273787b3405ef78\\classes.dex
-base.1=C\:\\Users\\ACHU\\Desktop\\OneStopForCS-- latest version\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_fe566ce7bcdf8885f52af7467273787b3405ef78
-file.0=C\:\\Users\\ACHU\\Desktop\\OneStopForCS-- latest version\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e0c6a37a2243b6e7452bbb630d4ec04047aff8db\\classes.dex
