@@ -1,0 +1,63 @@
+
+
+#title{
+  color:white;
+  font-family:Poiret One;
+  font-weight: bold;
+  margin-left: 20px;
+
+}
+
+
+#cts{
+  margin-top:50px;
+  text-align: center;
+}
+/*
+#button{
+  margin-top: 15px;
+  height: 80px;
+}
+*/
+
+#search{
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 5px;
+  border: solid 5px orangered;
+  width: 400px;
+  height: 44px;
+  margin-top: 25px;
+  color: black;
+  font-size: 20px;
+
+}
+
+#submitWiki{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px 30px;
+  font-size: 20px;
+  width: 250px;
+  height: 120px;
+  color: #795548;
+}
+
+a{
+  color:inherit;
+}
+
+.docs{
+  background-color:white;
+  color: #4A6664;
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  text-align:left;
+}
+
+.scroll-content{
+  background: url(../img/download.png);
+  background-size:cover;
+}

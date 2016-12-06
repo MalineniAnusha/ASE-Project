@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.22.0\1d63f369ac78e4838a3197147012026e791008cb\google-oauth-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1d63f369ac78e4838a3197147012026e791008cb">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-oauth-client-1.22.0_1787c98fa944edf8b139e96b276e902d372ea07a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-gson\1.22.0\ca557a4630f5d4690f008fe32231c7f41701c35d\google-api-client-gson-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ca557a4630f5d4690f008fe32231c7f41701c35d">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-gson-1.22.0_e37c70d61100460c8eeadc7064aa8a7d53fbce5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.22.0\244350c0c845c583717ade13f5666a452fd0cfa\google-api-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0244350c0c845c583717ade13f5666a452fd0cfa">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-1.22.0_60821c9ed31cb5f78d81172811b68a8f2f8d27a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_b2feeaea778d3f478a3d3bc6b8cfd6816a5baf9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.4.0_35c09dd53082458378deb5a1651c020e7e2aa09e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.4.1.1\c8d96f6fd2bcc179c312da33ee670a71188cc60d\httpclient-4.4.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c8d96f6fd2bcc179c312da33ee670a71188cc60d">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.4.1.1_9b1d78243df4db84423c9271c70e9aafb611c07f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_354f72a9329d7898b513f792731e4216c0a86320\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-8.4.0_6c7941ba8878383ba5ac0a3cdcde3ead6fd8950f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-8.4.0_95d7c030df9563cb37c20115d0094b9f56589830\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-8.4.0_b61e5020b139df065ee0b88eced9ceebab18693c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.22.0\6d1e1a76a16a244ab2f41775791be1dd0ec2878a\google-http-client-android-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6d1e1a76a16a244ab2f41775791be1dd0ec2878a">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-android-1.22.0_18f608e89923d3f85ec588196eb84a9abc0fe03a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-8.4.0_8b9ad145571098e497697b24fa3937e25536f181\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-8.4.0_b137ec1a9cf89cb4331aabc9f6298c5291236b79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\17.0\463f8378feba44df7ba7cd9272d01837dad62b36\guava-jdk5-17.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-jdk5-17.0_a55f935f24423efa74ace82c0c3d3d0fcc6b3d01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.22.0\7a0fe12b7d8189a821934d6f9d6586d00180e461\google-api-client-android-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7a0fe12b7d8189a821934d6f9d6586d00180e461">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-android-1.22.0_df095656e59e916bd7f328d2d8bd599af9c8a00a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-8.4.0_cd0f086bc435688940388abff9eb5bb7ff7e9ab0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-1.3.9_0f46c5878635b1a15b7619ee93ce913c20ebb888\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_f9fe52fd93a9cbe6ac5cf2902002da40ddfc8d5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_f65104d6b70dae4599f5d3f4eaf314d627df3939\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.1_82e60102e7a4df526bf91f5ed48002eba7f9ed46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-core-1.8.2_d46b55de310812b22b81bb0f2d35f4459567ea53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-measurement-8.4.0_830121b7939f76efec686d4f445f93d2fd101e5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-zbar-1.8.2_8ef89dc3ae2aa126f6b47b00328f91fc21c20898\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-8.4.0_1314a8c1f69770fd05de99464e609d5906bc15fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_f57123795169c77da73d3f1bc86deb1a172e01c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\org.parceler\parceler-api\1.0.4\4f7392b86e064f3f6da06977f54c21a48e6b6871\parceler-api-1.0.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4f7392b86e064f3f6da06977f54c21a48e6b6871">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\parceler-api-1.0.4_ca94bb0ea87621e753b85e4ddb9405dad3c17924\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\libs\zbar.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\zbar_a3bc11cef79d0d0ca01d120bfffb23fe4f09ef2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-8.4.0_20075c896e2d8e17e08510179d878d5a482be302\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-gson\1.22.0\826b874fa410a8135b7094c469951bf0dadb0c10\google-http-client-gson-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="826b874fa410a8135b7094c469951bf0dadb0c10">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-gson-1.22.0_ef4554d4e8fb0a9ef719e9dab8382cc026604d4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1129455373ee0e0d207d66c4c515cef161c49ca6">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fe566ce7bcdf8885f52af7467273787b3405ef78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_66ecf8eaf90357aadc7341be54f02c0057ba79bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0-beta4\739e00dea1f0ac04fdb9b6160d667e23cc50a791\retrofit-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta4_7c55af453df1c1a812c0ded3a80ffc0f62081062\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-8.4.0_c555e3a6f3e65058ea4d3b259710e9a588cc7920\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-8.4.0_340757a71dd208303d98fc271dc7076cee83c937\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_d92e2b221337195787a3219e79c96d52d7343874\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.4.0_c0bac1b0a9e77debb93c387f72ef235280636957\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_54b686b33121869d1073b5ca4b1b14b7997725a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.akexorcist\googledirectionlibrary\1.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1c4f62b5874f45a6fd3617fa6447714adb7a72a7">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.akexorcist-googledirectionlibrary-1.0.4_aaae754a5b215679ed77abd2686ee2a7268630da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-8.4.0_8f85789aeaadbfca837f4ca4af0cea02ac0bfaa2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-8.4.0_5817af75f3f9577d3d7cd4314f28417fa01b89bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.22.0\cc014d64ae11117e159d334c99d9c246d9b36f44\google-http-client-jackson2-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cc014d64ae11117e159d334c99d9c246d9b36f44">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-jackson2-1.22.0_beba32ed5d05419edacf43a61c0e168d0f258fdd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.0.1_a2320aa13b576ef22a4bf01f80a53f949fe99e2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.16.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="99d79164a8f983161bdb59b1403b9e4a1127aae1">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.16.1_b4306e6644c43b4ccd594612e9a6378cb920b2bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_65953982dd35a03a63e846e4842d9b21d0ce50d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-8.4.0_2f914a3481e25a27d7f426ae7728a93f27c75267\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.1.3_ae045ecbd53e481f51fd85cf762afe55fe6825c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_920fa142ebc8190661d6d27bf53ce7fc29c8551d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.1_fd1aed37a3f8d010ff5514ac620755ba6fd1c4b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_12554c2e6a38b5b00e7ee8ec85945a8a76739a0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-8.4.0_86a2ce150d59c836c6628721a3a90a0399f7e198\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.22.0\d441fc58329c4a4c067acec04ac361627f66ecc8\google-http-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d441fc58329c4a4c067acec04ac361627f66ecc8">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-1.22.0_06a0dd07d2ee6a96f9f4e2cd3df4ca8535821243\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.1\f5aa318bda4c6c8d688c9d00b90681dcd82ce636\httpcore-4.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpcore-4.4.1_52dd8003c290f478992a9b52d1341b4d84ab02f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_3bfc2a64b08a1817a50ab1c4cd615c6077c6405e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-8.4.0_e9684607bf97fc300d6234ee36832561801fdbbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_bb5ddc69e7eb5c621f0047abc82da23e9b1b2eb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta4\de5935a367ba5e343e9df786ac8fc0c7d52b5f0c\converter-gson-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta4_dd049c65cace8b6196b49d7b1884bd7733e2794b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_5407fa5a7dc2ec1a691ba3d396f021f2f37d90ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="acf865b4c9728fb81389f67ce088b16f272377d7">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e0c6a37a2243b6e7452bbb630d4ec04047aff8db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-8.4.0_35b86db5a0a7fb7e243239ebe0d6f8fef12059b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-8.4.0_4a2a7fd226f60802cff369afe4735ba600d0f0ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_acf28864c74cc6b8a20fb8bd5df8abed5c8718d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-8.4.0_ca8fa9c6b04d08bc121c4ddade30ebc2efcf1d62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\ACHU\Desktop\OneStopForCS-- latest version\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_aa9f4fc6f1bd1b6a348771a461a44e0e3c2626df\classes.dex" />
+    </item>
+
+</items>

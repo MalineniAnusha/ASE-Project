@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="@mipmap/logo">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@mipmap/application_logo"
+        android:layout_width="123dp"
+        android:layout_height="97dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="One Stop for CS"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16dip"
+        android:textColor="@color/colorMain"
+        android:onClick="signUp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lbl_caption"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:text="Journals"
+        android:id="@+id/button"
+        android:background="@color/pink"
+        android:textColor="@color/colorMain"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:text="PPT's"
+        android:id="@+id/button2"
+        android:onClick="openslide"
+        android:background="@color/pink"
+        android:textColor="@color/colorMain"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:text="Videos"
+        android:id="@+id/button3"
+        android:layout_marginTop="20dp"
+        android:background="@color/pink"
+        android:textColor="@color/colorMain"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:text="WebCourses"
+        android:id="@+id/button4"
+        android:layout_marginTop="20dp"
+        android:background="@color/pink"
+        android:textColor="@color/colorMain"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:text="Near by events"
+        android:id="@+id/button5"
+        android:onClick="Navigate"
+        android:layout_marginTop="28dp"
+        android:background="@color/pink"
+        android:textColor="@color/colorMain"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+</RelativeLayout>

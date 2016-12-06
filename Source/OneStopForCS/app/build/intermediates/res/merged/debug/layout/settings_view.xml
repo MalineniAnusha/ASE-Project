@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- How to use this layout for the back-end:
+        The only things of interest for the back-end developers are the 'settings' themselves,
+        in this comment the id's of these views are listed for quick reference. Line numbers are
+        included but they might be incorrect, due to future updates.
+
+        Time Period:
+            ID:     @+id/spinner_time
+            LINE:   149
+            TYPE:   Spinner
+            REFERENCE: http://developer.android.com/guide/topics/ui/controls/spinner.html
+
+        Search Range:
+            ID:     @+id/spinner_range
+            LINE:   206
+            TYPE:   Spinner
+            REFERENCE: http://developer.android.com/guide/topics/ui/controls/spinner.html
+
+        Home Address:
+            ID:     @+id/editText_Home
+            LINE:   272
+            TYPE:   EditText, inputType="textPostalAddress"
+            REFERENCE: http://developer.android.com/reference/android/widget/EditText.html
+
+        Use GPS:
+            ID:     @+id/checkBox_GPS
+            LINE:   282
+            TYPE:   CheckBox
+            REFERENCE: http://developer.android.com/reference/android/widget/CheckBox.html
+        -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_dark"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <include layout="@layout/app_bar_search" android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/general_padding_TB"
+        android:background="@drawable/gradient_grey"/>
+
+    <!-- Settings Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/gradient_light"
+        android:paddingLeft="@dimen/general_padding_LR"
+        android:paddingRight="@dimen/general_padding_LR"
+        android:paddingTop="@dimen/general_padding_TB"
+        android:paddingBottom="@dimen/general_padding_TB">
+
+        <!-- Settings Column Left -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:text="@string/settings_title"
+                style="@style/easyText"/>
+
+        </LinearLayout>
+
+        <!-- Settings Column Right -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <!-- verticaal centreren van de button nog doen! -->
+
+                <Button
+                    android:id="@+id/btn_close_settingsview"
+                    android:layout_width="@dimen/btn_close_overlay"
+                    android:layout_height="@dimen/btn_close_overlay"
+                    android:background="@drawable/btn_closebtn"
+                    android:layout_gravity="right"
+                    android:focusable="true"
+                    android:onClick="btn_close_settings"
+                    android:textColor="@color/colorGrey"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/general_padding_TB"
+        android:background="@drawable/gradient_grey"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Time Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/gradient_dark"
+                android:paddingLeft="@dimen/general_padding_LR"
+                android:paddingRight="@dimen/general_padding_LR"
+                android:paddingTop="@dimen/general_padding_TB"
+                android:paddingBottom="@dimen/general_padding_TB">
+
+                <!-- Time Column Left -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:text="@string/settings_time1"
+                        style="@style/easyText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_time2"
+                        style="@style/easyText"/>
+
+                </LinearLayout>
+
+                <!-- Time Column Right -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <!-- Spinner are dropdown menu's, they are only constructors in xml
+                         i.e. to modify them you'll need to search the related Activity (java file)
+                         for the id, in this case "spinner_time".
+
+                         In this same snippet of Java you'll find a reference to an ArrayAdapter,
+                         in this case R.array.time_array. This 'time_array' contains the actual items inside
+                         the dropdown and these can be modified in res/values/settings_view_spinners.xml -->
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:id="@+id/spinner_time"
+                        android:textColor="@color/colorGrey"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/general_padding_TB"
+                android:background="@drawable/gradient_grey"/>
+
+            <!-- Range Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/gradient_light"
+                android:paddingLeft="@dimen/general_padding_LR"
+                android:paddingRight="@dimen/general_padding_LR"
+                android:paddingTop="@dimen/general_padding_TB"
+                android:paddingBottom="@dimen/general_padding_TB">
+
+                <!-- Range Column Left -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:text="@string/settings_range1"
+                        style="@style/easyText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_range2"
+                        style="@style/easyText"/>
+
+                </LinearLayout>
+
+                <!-- Range Column Right -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:id="@+id/spinner_range" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/general_padding_TB"
+                android:background="@drawable/gradient_grey"/>
+
+            <!-- Route Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/general_padding_LR"
+                android:paddingRight="@dimen/general_padding_LR"
+                android:paddingTop="@dimen/general_padding_TB"
+                android:paddingBottom="@dimen/general_padding_TB">
+
+                <!-- Route Column Left -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:text="@string/settings_route1"
+                        style="@style/easyText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_route2"
+                        style="@style/easyText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        style="@style/easyText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_route5"
+                        style="@style/easyText"/>
+
+                </LinearLayout>
+
+                <!-- Route Column Right -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPostalAddress"
+                        android:ems="10"
+                        android:textColor="@color/colorGrey"
+                        android:textColorHint="@color/colorGrey"
+                        android:hint="@string/settings_route3"
+                        android:id="@+id/editText_Home"/>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorGrey"
+                        android:buttonTint="@color/colorGrey"
+                        android:text="@string/settings_route4"
+                        android:layout_gravity="right"
+                        android:id="@+id/checkBox_GPS"/>
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/general_padding_LR"
+                        android:paddingRight="@dimen/general_padding_LR"
+                        android:background="@drawable/btn_pill"
+                        android:id="@+id/btn_save"
+                        android:text="@string/save_text"
+                        android:gravity="center"
+                        android:layout_gravity="right"
+                        android:maxWidth="@dimen/btn_trans_maxWidth"
+                        android:textColor="@color/colorGrey"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
