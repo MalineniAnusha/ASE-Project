@@ -1,0 +1,29 @@
+<ion-view title="Profile" id="page3">
+  <ion-content padding="true" class="has-header">
+    <div class="list list-inset" ng-init = "init()">
+      <label class="item item-input" style="height: 60px;">
+        <label style="color: black">First Name</label>
+        <input style="padding-left: 20px" type="text" placeholder="FirstName" ng-model="data.firstname" required="true">
+      </label>
+      <label class="item item-input">
+        <label style="color: black">Last Name</label>
+        <input style="padding-left: 20px" type="text" placeholder="LastName" ng-model="data.lastname" required="true">
+      </label>
+      <label class="item item-input">
+        <label style="color: black">User Name</label>
+        <input style="padding-left: 20px" type="text" placeholder="Username" ng-model="data.username" required="true">
+      </label>
+      <label class="item item-input">
+        <label style="color: black">Password</label>
+        <input style="padding-left: 20px" type="password" style="margin-left: 20px" ng-model="data.password" required="true">
+      </label>
+      <label class="item item-input">
+        <label style="color: black">Email</label>
+        <input style="padding-left: 20px" type="email" style="margin-left: 20px" ng-model="data.email" required="true">
+      </label>
+    </div>
+      <div>
+        <a ui-sref="menu.settings" id="login-button3" class="button button-stable  button-block" style="background-color: #795548;color: white;font-family: Helvetica;">Change details</a>
+      </div>
+  </ion-content>
+</ion-view>
