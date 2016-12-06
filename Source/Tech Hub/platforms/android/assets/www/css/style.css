@@ -1,0 +1,88 @@
+body {
+  background-color:  #ADD8E6;
+}
+
+h1,html {
+  text-align:center;
+  font-family:"";
+  color: grey;
+}
+
+html {
+  text-align:center;
+}
+
+.search-form
+{
+  text-align: center;
+}
+.submit {
+  background-color: #ccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius:6px;
+  color: #fff;
+  font-family: 'Yorkville';
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  border:none;
+  padding-left: 15px;
+}
+
+.line-separator{
+  height:1px;
+  background:#717171;
+  border-bottom:1px solid #313030;
+}
+
+input[type=text] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-size: 16px;
+  font-family: 'Yorkville';
+  color: grey;
+}
+
+#ListEvents a {
+  font-size: 16px;
+  font-family: 'Yorkville';
+  color: grey;
+}
+
+.box {
+  margin: 5px 0px 5px 0px;
+  padding: 10px;
+  border: 1px solid blue;
+  width: 300px;
+
+}
+img {
+  height: 100px;
+  clip: rect(0px, 140px, 140px, 0px);
+}
+
+.icons {
+  height: 15px;
+  clip: rect(0px, 140px, 140px, 0px);
+}
+.container {
+  width: 450px;
+  margin: 0px auto;
+}
+
+img {
+  height: 100px;
+  clip: rect(300px, 300px, 300px, 300px);
+}
+
+.thumb {
+  width: 450px;
+  height: 300px;
+  /*background-position: 100%;*/
+}

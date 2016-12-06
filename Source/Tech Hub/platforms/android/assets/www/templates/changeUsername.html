@@ -1,0 +1,20 @@
+<ion-view title="Change Username" id="changeusername">
+  <ion-content padding="true" style="background: url(img/download.png) no-repeat center;background-size:cover;" class="has-header">
+
+    <div  ng-init = "init()">
+
+      <label class="item item-input">
+        <label style="color: black">User Name</label>
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="Username" ng-model="data.username" required="true">
+
+      </label>
+
+    </div>
+
+    <button class="button button-block button-calm" ui-sref="changeusername" style="font-family: Helvetica">Change username</button>
+
+
+  </ion-content>
+</ion-view>
