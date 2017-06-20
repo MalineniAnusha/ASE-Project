@@ -1,17 +1,11 @@
 # ASE-Project
 
-Project Abstract : https://github.com/MalineniAnusha/ASE-Project/blob/master/Documentation/One%20Stop%20CS_Abstract.pdf
+<b>Tech Hub</b>
 
-Project Increment 1 : https://github.com/MalineniAnusha/ASE-Project/blob/master/Documentation/Project%20Plan%20and%20Increment%201.pdf
+This project has been implemented as part of the course 'Advanced Software Engineering'. Developed an ionic application 'Tech hub' that provides all the useful resources for students. This application has registration and login features. It provides different resources like videos, wiki pages, courses, technical events and discussion forum. Users can search for videos, wiki pages, courses and technical events at a particular place. Users can participate in the discussion forum as well. We have used youtube api, coursera api, eventful api and wiki api.
 
-Project Increment 2 : https://github.com/MalineniAnusha/ASE-Project/blob/master/Documentation/ProjectSecondIncrement.pdf
+<b>Tools and Technologies:</b> Ionic framework, AngularJs, Javascript, MongoDb, html, css, webstorm.
 
-Project Increment 3 : https://github.com/MalineniAnusha/ASE-Project/blob/master/Documentation/Project%20Third%20Increment.pdf
+<b>You-Tube Video:</b> https://www.youtube.com/watch?v=XqjHIozLcoc&feature=youtu.be
 
-Project Increment 4 : https://github.com/MalineniAnusha/ASE-Project/blob/master/Documentation/Project%20Fourth%20Increment.pdf
-
-You-Tube Video : https://www.youtube.com/watch?v=XqjHIozLcoc&feature=youtu.be
-
-Presentation Link : https://www.dropbox.com/s/lv7oq9u3yyp7sz2/ASE_PPT_final.pptx?dl=0
-
-Project Final Increment : https://github.com/MalineniAnusha/ASE-Project/blob/master/Documentation/Project%20Final%20Increment.pdf
+<b>Project Final Increment:</b> https://github.com/MalineniAnusha/ASE-Project/blob/master/Documentation/Project%20Final%20Increment.pdf
